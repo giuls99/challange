@@ -2,7 +2,7 @@
 
 # controllo che venga passato il numero giusto di parametri
 if [ "$#" -ne 3 ]; then
-  echo "Usage: $0 old_string new_string directory_name"
+  echo "Usage: $0 old_string new_string directory"
   exit 1
 fi
 
